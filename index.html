@@ -1,0 +1,171 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Space Invaders</title>
+    <script src="index.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <div id="space">
+      <!-- METEORITES -->
+      <div id="meteoritos">
+        <div class="meteorito" id="met0">
+          <img
+            src="img/meteorito.png"
+            onload="moveMet('met0')"
+            alt="meteorite"
+            width="25"
+            height="25"
+          />
+        </div>
+        <div class="meteorito" id="met1">
+          <img
+            src="img/meteorito.png"
+            onload="moveMet('met1')"
+            alt="meteorite"
+            width="25"
+            height="25"
+          />
+        </div>
+        <div class="meteorito" id="met2">
+          <img
+            src="img/meteorito.png"
+            onload="moveMet('met2')"
+            alt="meteorite"
+            width="25"
+            height="25"
+          />
+        </div>
+        <div class="meteorito" id="met3">
+          <img
+            src="img/meteorito.png"
+            onload="moveMet('met3')"
+            alt="meteorite"
+            width="25"
+            height="25"
+          />
+        </div>
+        <div class="meteorito" id="met4">
+          <img
+            src="img/meteorito.png"
+            onload="moveMet('met4')"
+            alt="meteorite"
+            width="25"
+            height="25"
+          />
+        </div>
+        <div class="meteorito" id="met5">
+          <img
+            src="img/meteorito.png"
+            onload="moveMet('met5')"
+            alt="meteorite"
+            width="25"
+            height="25"
+          />
+        </div>
+        <div class="meteorito" id="met6">
+          <img
+            src="img/meteorito.png"
+            onload="moveMet('met6')"
+            alt="meteorite"
+            width="25"
+            height="25"
+          />
+        </div>
+      </div>
+
+      <!-- ENEMIES -->
+      <div id="enemies" onload="createAliens()">
+        <div class="enemigo" id="en0a">
+          <img
+            src="img/alien0.png"
+            onload="moveEnemy('en0a')"
+            alt="enemy"
+            width="30"
+            height="30"
+          />
+        </div>
+        <div class="enemigo" id="en0b">
+          <img
+            src="img/alien0.png"
+            onload="moveEnemy('en0b')"
+            alt="enemy"
+            width="30"
+            height="30"
+          />
+        </div>
+        <div class="enemigo" id="en0c">
+          <img
+            src="img/alien0.png"
+            onload="moveEnemy('en0c')"
+            alt="enemy"
+            width="30"
+            height="30"
+          />
+        </div>
+        <div class="enemigo" id="en1a">
+          <img
+            src="img/alien1.png"
+            onload="moveEnemy('en1a')"
+            alt="enemy"
+            width="35"
+            height="25"
+          />
+        </div>
+        <div class="enemigo" id="en1b">
+          <img
+            src="img/alien1.png"
+            onload="moveEnemy('en1b')"
+            alt="enemy"
+            width="35"
+            height="25"
+          />
+        </div>
+        <div class="enemigo" id="en1c">
+          <img
+            src="img/alien1.png"
+            onload="moveEnemy('en1c')"
+            alt="enemy"
+            width="35"
+            height="25"
+          />
+        </div>
+        <div class="enemigo" id="en2a">
+          <img
+            src="img/alien2.png"
+            onload="moveEnemy('en2a')"
+            alt="enemy"
+            width="35"
+            height="45"
+          />
+        </div>
+        <div class="enemigo" id="en2b">
+          <img
+            src="img/alien2.png"
+            onload="moveEnemy('en2b')"
+            alt="enemy"
+            width="35"
+            height="45"
+          />
+        </div>
+        <div class="enemigo" id="en2c">
+          <img
+            src="img/alien2.png"
+            onload="moveEnemy('en2c')"
+            alt="enemy"
+            width="35"
+            height="45"
+          />
+        </div>
+      </div>
+
+      <div id="laser"></div>
+
+      <!-- PLAYERS -->
+      <div id="player"></div>
+      <div class="nave" id="ship">
+        <img src="img/ship.png" alt="Player ship" width="50" height="50" />
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  overflow: hidden;
+  color: white;
+  height: 90%;
+}
+
+#space {
+  background-image: url("img/invaders.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-style: inset;
+}
+
+#meteoritos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#enemies {
+  position: relative;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#laser {
+  height: 30px;
+  display: flex;
+}
+
+#player {
+  display: flex;
+  align-content: center;
+}

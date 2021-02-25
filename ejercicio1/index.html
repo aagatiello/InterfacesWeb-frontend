@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div id="calculadora">
+      <div id="pantalla"></div>
+      <div id="teclado">
+        <div class="opbutton" onclick="clearDisplay()">C</div>
+        <div class="opbutton" onclick="plusmin()">±</div>
+        <div class="opbutton" onclick="addValue('/')">÷</div>
+        <div class="opbutton" onclick="addValue('*')">×</div>
+        <div class="numbutton" onclick="addValue(7)">7</div>
+        <div class="numbutton" onclick="addValue(8)">8</div>
+        <div class="numbutton" onclick="addValue(9)">9</div>
+        <div class="opbutton" onclick="addValue('-')">−</div>
+        <div class="numbutton" onclick="addValue(4)">4</div>
+        <div class="numbutton" onclick="addValue(5)">5</div>
+        <div class="numbutton" onclick="addValue(6)">6</div>
+        <div class="opbutton" onclick="addValue('+')">+</div>
+        <div class="numbutton" onclick="addValue(1)">1</div>
+        <div class="numbutton" onclick="addValue(2)">2</div>
+        <div class="numbutton" onclick="addValue(3)">3</div>
+        <div class="numbutton" onclick="solve()">=</div>
+        <div class="zerobutton" onclick="addValue(0)">0</div>
+        <div class="numbutton" onclick="addValue('.')">,</div>
+        <div class="eqbutton" onclick="solve()">=</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+#calculadora {
+  background-image: radial-gradient(#e3e3e3, #cccccc);
+  width: 250px;
+  height: fit-content;
+  border: 1px solid grey;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+#pantalla {
+  background: #f4ffba;
+  color: #404040;
+  width: 100%;
+  height: 45px;
+  border: 3px inset #ffffff;
+  border-radius: 8px;
+  font-size: 40px;
+  text-align: right;
+  max-width: 250px;
+}
+
+#teclado {
+  color: #575656;
+  width: 100%;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.numbutton {
+  background-image: linear-gradient(to top, #e3e3e3, #f0f0f0);
+  box-shadow: 1px 5px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  width: 55px;
+  height: 55px;
+  margin-bottom: 10px;
+  font-size: 45px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.zerobutton {
+  background-image: linear-gradient(to top, #e3e3e3, #f0f0f0);
+  box-shadow: 1px 5px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  width: 120px;
+  height: 55;
+  margin-bottom: 10px;
+  font-size: 45px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.numbutton:active,
+.zerobutton:active {
+  background-image: linear-gradient(to bottom, #e3e3e3, #f0f0f0);
+}
+
+.opbutton {
+  background-image: linear-gradient(to top, #57534b, #696357);
+  color: #fefcf7;
+  box-shadow: 1px 5px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  width: 55px;
+  height: 55px;
+  margin-bottom: 10px;
+  font-size: 45px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.opbutton:active {
+  background-image: linear-gradient(to bottom, #57534b, #696357);
+}
+
+.eqbutton {
+  background-image: linear-gradient(to top, #f2835a, #f5a37a);
+  color: #fefcf7;
+  box-shadow: 1px 5px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  width: 55px;
+  margin-top: -65px;
+  margin-bottom: 10px;
+  font-size: 45px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.eqbutton:active {
+  background-image: linear-gradient(to bottom, #f2835a, #f5a37a);
+}

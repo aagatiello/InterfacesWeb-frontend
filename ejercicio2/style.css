@@ -1,6 +1,6 @@
 body {
   background-color: #282828;
-  color: white;
+  color: #ffffff;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -35,10 +35,9 @@ body {
 .character {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  height: auto;
-  margin: 15px;
-  padding: 12px;
+  width: 275px;
+  margin: 10px;
+  padding: 10px;
   border-radius: 10px;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -46,12 +45,13 @@ body {
 }
 
 #profilepic img {
+  width: 275px;
   border-radius: 10px;
 }
 
 #name {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -62,27 +62,27 @@ body {
 }
 
 .status_alive {
-  background-color: greenyellow;
+  background-color: #adff2f;
   width: 5px;
   height: 5px;
   border-radius: 100%;
-  margin: 7px;
+  margin: 8px;
 }
 
 .status_dead {
-  background-color: red;
+  background-color: #ff0000;
   width: 5px;
   height: 5px;
   border-radius: 100%;
-  margin: 7px;
+  margin: 8px;
 }
 
 .status_unknown {
-  background-color: grey;
+  background-color: #808080;
   width: 5px;
   height: 5px;
   border-radius: 100%;
-  margin: 7px;
+  margin: 8px;
 }
 
 #origin,

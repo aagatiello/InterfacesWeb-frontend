@@ -40,7 +40,7 @@ const fillData = (data) => {
 function prevPage() {
   pag = pag - 1;
   if (pag <= 1) {
-    pag = 0;
+    pag = 1;
     document.getElementById("prevnum").style.visibility = "hidden";
   }
   if (pag < 34) document.getElementById("nextnum").style.visibility = "visible";

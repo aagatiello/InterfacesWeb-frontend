@@ -27,11 +27,10 @@ const fillData = (data) => {
       " - " +
       elem.species +
       "</div>";
-    html += "<div id='origin'> Origin: <br>" + elem.origin.name + "</div>";
-    html +=
-      "<div id='lastloc'> Last known location: <br>" +
-      elem.location.name +
-      "</div>";
+    html += "<div id='origin'> Origin: <br>";
+    html += "<i>" + elem.origin.name + "</i></div>";
+    html += "<div id='lastloc'> Last known location: <br>";
+    html += "<i>" + elem.location.name + "</i></div>";
     html += "</div></div>";
   });
   document.getElementById("listado").innerHTML = html;

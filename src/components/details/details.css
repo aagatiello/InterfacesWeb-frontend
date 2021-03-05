@@ -1,0 +1,16 @@
+.details {
+  display: flex;
+  background-color: rgba(165, 165, 165, 0.247);
+  height: 450px;
+  justify-content: center;
+  border-bottom: 2px solid grey;
+}
+
+.selected {
+  display: flex;
+  margin: 10px;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  transition: ease-in-out 500ms;
+}

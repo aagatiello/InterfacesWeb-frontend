@@ -1,0 +1,17 @@
+.buttons {
+  background-color: rgb(19, 19, 19);
+  padding: 25px;
+}
+
+.opbutton {
+  padding: 10px 10px;
+}
+
+.result {
+  padding-top: 10px;
+}
+
+.searchInput {
+  padding: 10px;
+  border: 13px solid rgb(19, 19, 19);
+}

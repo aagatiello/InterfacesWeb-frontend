@@ -1,0 +1,31 @@
+.App {
+  height: 100%;
+  color: #ffe81f;
+  font-family: "Pathway Gothic One", sans-serif;
+  letter-spacing: 4px;
+  line-height: 150%;
+}
+
+.titleImg {
+  background-image: url("./img/starwars.png");
+  height: 150px;
+}
+
+.endpoints {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+
+button {
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(32, 32, 32);
+  padding: 15px 13%;
+  border-radius: 4px;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  color: rgb(251, 255, 0);
+}

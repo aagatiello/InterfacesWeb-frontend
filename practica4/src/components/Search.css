@@ -1,0 +1,64 @@
+body {
+  background-color: #f2fafa;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+}
+
+.loader {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.resultError {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  color: #17496e;
+  font-size: larger;
+}
+
+.sortButtons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.viewType {
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.search-view {
+  display: flex;
+  justify-content: space-between;
+  background-color: #17496e;
+  padding: 10px;
+}
+
+.searchBox,
+.opbutton,
+.pagenum {
+  height: 35px;
+  margin: 10px;
+  cursor: pointer;
+  padding: 0.46em 1.6em;
+  border: 0.1em solid #17496e;
+  background-color: #ffffff;
+}
+
+.gridFlex {
+  vertical-align: top;
+  display: inline-flex;
+  justify-content: center;
+  padding: 10px;
+  width: 18%;
+}
+
+.prev-next {
+  display: flex;
+  justify-content: center;
+}

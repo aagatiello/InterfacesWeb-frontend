@@ -1,0 +1,23 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #f7f7fc;
+  color: white;
+}
+
+.AppTitle {
+  font-size: 70px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-family: "Dancing Script", cursive;
+}
+
+.header {
+  background: url("../src/img/header.jpg");
+  text-align: center;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+}

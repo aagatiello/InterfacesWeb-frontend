@@ -1,0 +1,51 @@
+.loader {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.resultError {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  color: #21a453;
+  font-size: larger;
+}
+
+.place {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 10px solid #f2fafa;
+  background-color: #21a453;
+  border-radius: 30px;
+}
+
+.index_place {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border: 8px solid #f2fafa;
+  background-color: #1c8a46;
+  border-radius: 30px;
+}
+
+.placeName {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.placeInfo {
+  padding: 10px;
+  border: 1px dashed white;
+  width: 20%;
+}
+
+b{
+  cursor: pointer;
+}

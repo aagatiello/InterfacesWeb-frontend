@@ -1,0 +1,44 @@
+.search-view {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  color: white;
+}
+
+.searchBox,
+.searchInput {
+  height: 35px;
+  margin: 10px;
+  padding: 0.46em 1.6em;
+  border: 0.1em;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.searchBox,
+.viewType {
+  cursor: pointer;
+}
+
+.viewLabel {
+  cursor: pointer;
+  padding: 20px;
+}
+
+input[type="radio"]:after {
+  width: 10px;
+  height: 10px;
+  background-color: #d1d3d1;
+  content: "";
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+input[type="radio"]:checked:after {
+  width: 10px;
+  height: 10px;
+  background-color: #21a453;
+}
